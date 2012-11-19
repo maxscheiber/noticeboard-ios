@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50AD0DBD16515BEC001C872D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AD0DBC16515BEC001C872D /* UIKit.framework */; };
+		50AD0DBF16515BEC001C872D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AD0DBE16515BEC001C872D /* Foundation.framework */; };
+		50AD0DC116515BEC001C872D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AD0DC016515BEC001C872D /* CoreGraphics.framework */; };
+		50AD0DC716515BEC001C872D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50AD0DC516515BEC001C872D /* InfoPlist.strings */; };
+		50AD0DC916515BEC001C872D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AD0DC816515BEC001C872D /* main.m */; };
+		50AD0DCD16515BEC001C872D /* MNSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AD0DCC16515BEC001C872D /* MNSAppDelegate.m */; };
+		50AD0DD016515BEC001C872D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AD0DCE16515BEC001C872D /* MainStoryboard.storyboard */; };
+		50AD0DD316515BEC001C872D /* MNSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AD0DD216515BEC001C872D /* MNSMasterViewController.m */; };
+		50AD0DD616515BEC001C872D /* MNSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AD0DD516515BEC001C872D /* MNSDetailViewController.m */; };
+		50AD0DDE1656E3C2001C872D /* MNSAddMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AD0DDD1656E3C2001C872D /* MNSAddMessageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50AD0DB816515BEC001C872D /* Noticeboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noticeboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AD0DBC16515BEC001C872D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50AD0DBE16515BEC001C872D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50AD0DC016515BEC001C872D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50AD0DC416515BEC001C872D /* Noticeboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Noticeboard-Info.plist"; sourceTree = "<group>"; };
+		50AD0DC616515BEC001C872D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50AD0DC816515BEC001C872D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50AD0DCA16515BEC001C872D /* Noticeboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noticeboard-Prefix.pch"; sourceTree = "<group>"; };
+		50AD0DCB16515BEC001C872D /* MNSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNSAppDelegate.h; sourceTree = "<group>"; };
+		50AD0DCC16515BEC001C872D /* MNSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNSAppDelegate.m; sourceTree = "<group>"; };
+		50AD0DCF16515BEC001C872D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		50AD0DD116515BEC001C872D /* MNSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNSMasterViewController.h; sourceTree = "<group>"; };
+		50AD0DD216515BEC001C872D /* MNSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNSMasterViewController.m; sourceTree = "<group>"; };
+		50AD0DD416515BEC001C872D /* MNSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNSDetailViewController.h; sourceTree = "<group>"; };
+		50AD0DD516515BEC001C872D /* MNSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNSDetailViewController.m; sourceTree = "<group>"; };
+		50AD0DDC1656E3C2001C872D /* MNSAddMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNSAddMessageViewController.h; sourceTree = "<group>"; };
+		50AD0DDD1656E3C2001C872D /* MNSAddMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNSAddMessageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AD0DB516515BEC001C872D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AD0DBD16515BEC001C872D /* UIKit.framework in Frameworks */,
+				50AD0DBF16515BEC001C872D /* Foundation.framework in Frameworks */,
+				50AD0DC116515BEC001C872D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AD0DAD16515BEC001C872D = {
+			isa = PBXGroup;
+			children = (
+				50AD0DC216515BEC001C872D /* Noticeboard */,
+				50AD0DBB16515BEC001C872D /* Frameworks */,
+				50AD0DB916515BEC001C872D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50AD0DB916515BEC001C872D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AD0DB816515BEC001C872D /* Noticeboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AD0DBB16515BEC001C872D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50AD0DBC16515BEC001C872D /* UIKit.framework */,
+				50AD0DBE16515BEC001C872D /* Foundation.framework */,
+				50AD0DC016515BEC001C872D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50AD0DC216515BEC001C872D /* Noticeboard */ = {
+			isa = PBXGroup;
+			children = (
+				50AD0DCB16515BEC001C872D /* MNSAppDelegate.h */,
+				50AD0DCC16515BEC001C872D /* MNSAppDelegate.m */,
+				50AD0DCE16515BEC001C872D /* MainStoryboard.storyboard */,
+				50AD0DDC1656E3C2001C872D /* MNSAddMessageViewController.h */,
+				50AD0DDD1656E3C2001C872D /* MNSAddMessageViewController.m */,
+				50AD0DD116515BEC001C872D /* MNSMasterViewController.h */,
+				50AD0DD216515BEC001C872D /* MNSMasterViewController.m */,
+				50AD0DD416515BEC001C872D /* MNSDetailViewController.h */,
+				50AD0DD516515BEC001C872D /* MNSDetailViewController.m */,
+				50AD0DC316515BEC001C872D /* Supporting Files */,
+			);
+			path = Noticeboard;
+			sourceTree = "<group>";
+		};
+		50AD0DC316515BEC001C872D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AD0DC416515BEC001C872D /* Noticeboard-Info.plist */,
+				50AD0DC516515BEC001C872D /* InfoPlist.strings */,
+				50AD0DC816515BEC001C872D /* main.m */,
+				50AD0DCA16515BEC001C872D /* Noticeboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AD0DB716515BEC001C872D /* Noticeboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AD0DD916515BEC001C872D /* Build configuration list for PBXNativeTarget "Noticeboard" */;
+			buildPhases = (
+				50AD0DB416515BEC001C872D /* Sources */,
+				50AD0DB516515BEC001C872D /* Frameworks */,
+				50AD0DB616515BEC001C872D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noticeboard;
+			productName = Noticeboard;
+			productReference = 50AD0DB816515BEC001C872D /* Noticeboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AD0DAF16515BEC001C872D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MNS;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Max Scheiber";
+			};
+			buildConfigurationList = 50AD0DB216515BEC001C872D /* Build configuration list for PBXProject "Noticeboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50AD0DAD16515BEC001C872D;
+			productRefGroup = 50AD0DB916515BEC001C872D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AD0DB716515BEC001C872D /* Noticeboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AD0DB616515BEC001C872D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AD0DC716515BEC001C872D /* InfoPlist.strings in Resources */,
+				50AD0DD016515BEC001C872D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AD0DB416515BEC001C872D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AD0DC916515BEC001C872D /* main.m in Sources */,
+				50AD0DCD16515BEC001C872D /* MNSAppDelegate.m in Sources */,
+				50AD0DD316515BEC001C872D /* MNSMasterViewController.m in Sources */,
+				50AD0DD616515BEC001C872D /* MNSDetailViewController.m in Sources */,
+				50AD0DDE1656E3C2001C872D /* MNSAddMessageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50AD0DC516515BEC001C872D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AD0DC616515BEC001C872D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50AD0DCE16515BEC001C872D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AD0DCF16515BEC001C872D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AD0DD716515BEC001C872D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50AD0DD816515BEC001C872D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AD0DDA16515BEC001C872D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noticeboard/Noticeboard-Prefix.pch";
+				INFOPLIST_FILE = "Noticeboard/Noticeboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50AD0DDB16515BEC001C872D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noticeboard/Noticeboard-Prefix.pch";
+				INFOPLIST_FILE = "Noticeboard/Noticeboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AD0DB216515BEC001C872D /* Build configuration list for PBXProject "Noticeboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AD0DD716515BEC001C872D /* Debug */,
+				50AD0DD816515BEC001C872D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AD0DD916515BEC001C872D /* Build configuration list for PBXNativeTarget "Noticeboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AD0DDA16515BEC001C872D /* Debug */,
+				50AD0DDB16515BEC001C872D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50AD0DAF16515BEC001C872D /* Project object */;
+}
