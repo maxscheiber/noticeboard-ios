@@ -114,7 +114,7 @@
     NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
     [inputFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
     [outputFormatter setDateStyle:NSDateFormatterMediumStyle];
-    [outputFormatter setTimeStyle:NSDateFormatterShortStyle];
+    [outputFormatter setTimeStyle:NSDateFormatterMediumStyle];
     
     NSDictionary *messages = [NSJSONSerialization JSONObjectWithData:_data options:0 error:nil];
     NSDictionary *msg;
