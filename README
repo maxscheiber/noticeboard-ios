@@ -1,0 +1,1 @@
+Noticeboard is a public messges application for CIS 195. The app uses a basic master-detail view along with the NSURLConnection class to make GET and POST requests to the message board API.
